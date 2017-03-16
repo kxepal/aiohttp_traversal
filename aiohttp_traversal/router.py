@@ -6,7 +6,7 @@ import types
 from aiohttp.abc import AbstractRouter, AbstractMatchInfo
 from aiohttp.web_exceptions import HTTPNotFound
 
-from resolver_deco import resolver
+from .resolver import resolver
 from .traversal import traverse
 
 log = logging.getLogger(__name__)

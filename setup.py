@@ -20,8 +20,6 @@ setup(
     packages=['aiohttp_traversal', 'aiohttp_traversal.ext'],
     install_requires=[
         'aiohttp',
-        'resolver_deco',
-        'zope.dottedname',
     ],
     tests_require=['pytest']
 ),

@@ -1,9 +1,8 @@
 import asyncio
 import logging
 
-from resolver_deco import resolver
-
 from aiohttp_traversal.abc import AbstractResource
+from aiohttp_traversal.resolver import resolver
 from aiohttp_traversal.traversal import Traverser
 
 log = logging.getLogger(__name__)
